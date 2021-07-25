@@ -1,0 +1,197 @@
+/* How I made the video cover whole screen*/
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 95.2%;
+}
+
+/* Content at bottom */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+h4{
+  color: white;
+  font-size: 40px;
+}
+p {
+  color: white;
+  font-size: 30px;
+}
+body {
+  margin: 0;
+  font-family: Copperplate, Fantasy;
+  background-color: #62b6cb
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1b4965;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #5fa8d3;
+  color: #1b4965;
+}
+
+.topnav a.active {
+  background-color: #bee9e8;
+  color: #1b4965;
+}
+
+@media screen and (max-width:800px)
+{
+  .flexboxContainer{
+    flex-wrap: 800px;
+  }
+}
+/*style not working??*/
+#btn{
+  display: block;
+  margin: 0 auto;
+
+  padding: 10px;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  background-color: #CAE9FF;
+  font-size: 50px;
+  border-radius: 4px;
+  font-family: Copperplate, Fantasy;
+  color: #1b4965;
+  
+
+}
+#quote{
+font-size: 50px;
+color: #CAE9FF;
+text-align: center;
+
+}
+
+h1 {
+  color: #1b4965;
+  font-size: 50px;
+  text-align: center; 
+}
+
+#overfishing {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#acidification {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#pollution {
+  border-radius: 50%;
+  width: 400px;
+   height: 400px;
+   margin-left: auto;
+  margin-right: auto;
+
+}
+
+#climatechange {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h2 {
+  color: #1b4965;
+  font-size: 40px; 
+}
+
+h3{
+  color: #1b4965;
+  font-size: 30px;
+}
+
+#overfishing2 {
+  width: 46.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#oceanacidification {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pollution2 {
+  width: 43%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#climatechange1 {
+width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 10px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#climatechange2 {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 10px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#climatechange3 {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 10px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hthtrash {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
